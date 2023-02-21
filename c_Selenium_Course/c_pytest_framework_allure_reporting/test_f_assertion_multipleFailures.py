@@ -1,6 +1,6 @@
 # Pytest is unit testing framework for python users
 import pytest
-
+from assertpy.assertpy import assert_that
 
 # testcase in this file
 @pytest.mark.smoke
@@ -13,6 +13,8 @@ def test_registration_form():
 def test_shares_section():  # function stopped execution once an assertion is failed
     assert "asdf" == "asdf"
     assert "zxcv" == "zhcv"
+    assert_that("asdf").is_equal_to("asdef")
+    assert_that("asdf").is_equal_to("asdf")
 
 
 # testcase in this file
