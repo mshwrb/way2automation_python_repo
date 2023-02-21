@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3815f4c-8369-4862-8518-a9ddad4c7e1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c_Selenium_Course/c_pytest_framework_allure_reporting/test_c_TestFixtures_with_Decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_Selenium_Course/c_pytest_framework_allure_reporting/test_c_TestFixtures_with_Decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" beforeDir="false" afterPath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,12 +215,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.New" />
       <item itemvalue="Python.a_Browser_test" />
       <item itemvalue="Python.a_POST_api" />
-      <item itemvalue="Python.New" />
       <item itemvalue="Python.f_list" />
       <item itemvalue="Python.i_set" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python tests.pytest in c_pytest_framework_allure_reporting" />
     </list>
     <recent_temporary>
