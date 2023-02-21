@@ -1,0 +1,69 @@
+1673699058626	geckodriver	INFO	Listening on 127.0.0.1:62848
+1673699058626	geckodriver	INFO	Listening on 127.0.0.1:62846
+1673699058626	geckodriver	INFO	Listening on 127.0.0.1:62842
+1673699059109	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62847" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5y/_pr3z_fs70x57gdt0_rqs35m0000gn/T/rust_mozprofileEscTZm"
+1673699059109	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62849" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5y/_pr3z_fs70x57gdt0_rqs35m0000gn/T/rust_mozprofilenr9GMQ"
+1673699059110	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62843" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5y/_pr3z_fs70x57gdt0_rqs35m0000gn/T/rust_mozprofileAE3ZXT"
+1673699059735	Marionette	INFO	Marionette enabled
+1673699059735	Marionette	INFO	Marionette enabled
+1673699059735	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5y/_pr3z_fs70x57gdt0_rqs35m0000gn/T/rust_mozprofileAE3ZXT/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5y/_pr3z_fs70x57gdt0_rqs35m0000gn/T/rust_mozprofilenr9GMQ/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5y/_pr3z_fs70x57gdt0_rqs35m0000gn/T/rust_mozprofileEscTZm/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:62847/devtools/browser/0d7e9d05-f560-6e47-a59e-933571b702e0
+DevTools listening on ws://localhost:62843/devtools/browser/a53f7acb-5c90-3f4d-9f19-220956948e32
+1673699061962	Marionette	INFO	Listening on port 62885
+1673699061973	Marionette	INFO	Listening on port 62884
+DevTools listening on ws://localhost:62849/devtools/browser/6520d6ac-e8f4-5a4e-adb5-890ae82a325a
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1673699062000	Marionette	INFO	Listening on port 62883
+1673699062148	Marionette	WARN	TLS certificate errors will be ignored for this session
+1673699062151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1673699062375	Marionette	WARN	TLS certificate errors will be ignored for this session
+1673699064608	Marionette	INFO	Stopped listening on port 62884
+1673699064640	Marionette	INFO	Stopped listening on port 62885
+1673699064764	Marionette	INFO	Stopped listening on port 62883
+!!! error running onStopped callback: TypeError: callback is not a function
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1673699065373	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1673699065384	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1673699065439	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
