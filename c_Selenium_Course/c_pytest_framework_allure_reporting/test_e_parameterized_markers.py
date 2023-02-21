@@ -17,7 +17,7 @@ def get_data():
 
 
 # testcase in this file , this executes for all dataset present in above function
-@pytest.mark.parametrize("username,password",get_data())
+@pytest.mark.parametrize("username,password", get_data())
 def test_termination_form(username, password):
     print(username + "\n" + password + "\nExecuting TerminationForm test")
 

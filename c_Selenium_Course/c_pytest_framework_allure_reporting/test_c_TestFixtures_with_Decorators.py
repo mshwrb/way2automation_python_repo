@@ -24,7 +24,6 @@ def test_registration_form(Module, Function):
 
 
 # testcase in this file
-@pytest.mark.usefixtures("Module","Function")
+@pytest.mark.usefixtures("Module", "Function")
 def test_termination_form():
     print("Executing TerminationForm test")
-
