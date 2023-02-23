@@ -26,12 +26,12 @@ element_present = wait.until(EC.presence_of_element_located((By.XPATH, "//i[@cla
 print(element_present)
 
 # Elements
-Selenium_4_pop_up_close_button = driver.find_element(By.XPATH,Selenium_4_pop_up_close_locator)
+Selenium_4_pop_up_close_button = driver.find_element(By.XPATH, Selenium_4_pop_up_close_locator)
 
 # Script
 Selenium_4_pop_up_close_button.click()
 action = ActionChains(driver)
-Resources_menu = driver.find_element(By.XPATH,Resources_locator)
+Resources_menu = driver.find_element(By.XPATH, Resources_locator)
 Practice_site_option = driver.find_element(By.XPATH, Practice_Site_1_locator)
 action.move_to_element(Resources_menu).perform()
 Practice_site_option.click()

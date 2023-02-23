@@ -6,9 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f3815f4c-8369-4862-8518-a9ddad4c7e1d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/way2automation_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/way2automation_python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c_Selenium_Course/c_pytest_framework_allure_reporting/test_f_assertion_multipleFailures.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_Selenium_Course/c_pytest_framework_allure_reporting/test_f_assertion_multipleFailures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics/g_MouseOver.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics/g_MouseOver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics/u_css_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics/u_css_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_API_Demo/a_POST_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_API_Demo/a_POST_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" beforeDir="false" afterPath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/way2automation_python" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/keshavsharma/Desktop/frameworks/way2automation_python/venv/bin/python3.11",
+    "last_opened_file_path": "E:/auto_frameworks/ui_auto/UI_Auto_python_repo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,30 +79,9 @@
       <recent name="$PROJECT_DIR$/Selenium_Course" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_f_assertion_multipleFailures.test_shares_section">
-    <configuration name="a_Browser_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="way2automation_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics/a_Browser_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_a_CreatingTestCases.test_termination_form">
     <configuration name="a_POST_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="way2automation" />
+      <module name="way2automation_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -108,6 +93,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d_API_Demo/a_POST_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="d_operators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="way2automation_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/a_Python_Course/pythonConcepts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a_Python_Course/pythonConcepts/d_operators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="g_MouseOver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="way2automation_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics/g_MouseOver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,23 +164,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_f_assertion_multipleFailures.test_composeEmail" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="u_css_validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="way2automation_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_Selenium_Course/c_pytest_framework_allure_reporting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_f_assertion_multipleFailures.test_composeEmail&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics/u_css_validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_f_assertion_multipleFailures.test_registration_form" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_a_CreatingTestCases.test_termination_form" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="way2automation_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,23 +197,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_f_assertion_multipleFailures.test_registration_form&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_f_assertion_multipleFailures.test_shares_section" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="way2automation_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_Selenium_Course/c_pytest_framework_allure_reporting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_f_assertion_multipleFailures.test_shares_section&quot;" />
+      <option name="_new_target" value="&quot;test_a_CreatingTestCases.test_termination_form&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -203,20 +219,20 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.a_Browser_test" />
       <item itemvalue="Python.a_POST_api" />
+      <item itemvalue="Python.d_operators" />
+      <item itemvalue="Python.g_MouseOver" />
+      <item itemvalue="Python.u_css_validation" />
       <item itemvalue="Python tests.pytest in c_pytest_framework_allure_reporting" />
-      <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_composeEmail" />
-      <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_registration_form" />
-      <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_shares_section" />
+      <item itemvalue="Python tests.pytest for test_a_CreatingTestCases.test_termination_form" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_shares_section" />
-        <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_registration_form" />
-        <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_composeEmail" />
-        <item itemvalue="Python.a_Browser_test" />
+        <item itemvalue="Python tests.pytest for test_a_CreatingTestCases.test_termination_form" />
         <item itemvalue="Python.a_POST_api" />
+        <item itemvalue="Python.u_css_validation" />
+        <item itemvalue="Python.g_MouseOver" />
+        <item itemvalue="Python.d_operators" />
       </list>
     </recent_temporary>
   </component>
@@ -245,5 +261,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/way2automation_python" />
+    </ignored-roots>
   </component>
 </project>

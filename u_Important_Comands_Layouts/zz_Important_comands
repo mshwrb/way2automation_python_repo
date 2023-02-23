@@ -185,6 +185,14 @@ https://www.youtube.com/watch?v=dxvnbKaszBw&ab_channel=BiggiDroid
 mac ==> command + shift + g (to find .ssh key)
 
 
+Notepad++ regix :-
+105164 25   >>>>>> 105164_0025
+[ ]([0-9]+) to _$1   --do your first replace
+_([0-9])$ to _000$1
+_([0-9][0-9])$ to _00$1
+_([0-9][0-9][0-9])$ to _0$1
+
+
 
 
 

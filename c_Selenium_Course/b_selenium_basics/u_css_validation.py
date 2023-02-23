@@ -13,7 +13,7 @@ explicit_wait = WebDriverWait(driver, 5)
 driver.get(url)
 driver.maximize_window()
 
-login_button = driver.find_element(By.ID,"w3loginbtn")
+login_button = driver.find_element(By.ID, "w3loginbtn")
 print(login_button.value_of_css_property("font-size"))
 print(login_button.value_of_css_property("background-color"))
 print(login_button.value_of_css_property("vertical-align"))
