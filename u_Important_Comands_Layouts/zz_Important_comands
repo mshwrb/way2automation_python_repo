@@ -179,6 +179,15 @@ git branch -M main
 git remote add origin https://github.com/vedthemaster/tutorial-yt.git
 git push -u origin main
 
+git conflicts :
+https://stackoverflow.com/questions/161813/how-do-i-resolve-merge-conflicts-in-a-git-repository
+
+after git conflict resolve :
+https://stackoverflow.com/questions/2474097/how-do-i-finish-the-merge-after-resolving-my-merge-conflicts
+
+name of git branch :
+https://stackoverflow.com/questions/6245570/how-do-i-get-the-current-branch-name-in-git
+
 how to fix github error permission denied :
 https://www.youtube.com/watch?v=dxvnbKaszBw&ab_channel=BiggiDroid
 
@@ -196,12 +205,16 @@ uninstall jenkins :
 brew uninstall jenkins --force
 brew cleanup
 
-Install jenkins .war file from https://www.jenkins.io/download/
-jenkins_2.289.3.war jenkins file version
-navigate to this for accessing apache localhost server: http://localhost:8080/login?from=%2F
+1. Install jenkins .war file from https://www.jenkins.io/download/
+2. Jenkins_2.289.3.war jenkins file version
+3. Open cmd in location where .war file downloaded and then run command : java -jar jenkins.war
+4. Then copy the authentication key and paste it somewhere
+5. Navigate to this for accessing apache localhost server: http://localhost:8080/login?from=%2F
+6. http://localhost:8080/
+7. Login with Jenkins Credentials username/password
+8. Navigate to "Manage Jenkins" > Install some plugins > tab "Available" and search for
+   a. allure
+   b. shinningpanda
+9. cntrl + c to top jenkins
 
-
-
-
-
-
+help video : https://www.youtube.com/watch?v=1aXKLIbKOp4&ab_channel=Mukeshotwani
