@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f3815f4c-8369-4862-8518-a9ddad4c7e1d" name="Changes" comment="">
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -23,6 +24,9 @@
       <change beforePath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" beforeDir="false" afterPath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" afterDir="false" />
 >>>>>>> 0b8bc32 (adding some jenkins commands)
     </list>
+=======
+    <list default="true" id="f3815f4c-8369-4862-8518-a9ddad4c7e1d" name="Changes" comment="adding some jenkins commands" />
+>>>>>>> dee7392 (adding some info)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,12 +58,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dee7392 (adding some info)
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< HEAD
     "last_opened_file_path": "E:/auto_frameworks/ui_auto/UI_Auto_python_repo",
+=======
+    "last_opened_file_path": "/Users/keshavsharma/Desktop/frameworks/way2automation_python",
+>>>>>>> dee7392 (adding some info)
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +81,7 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
+<<<<<<< HEAD
 =======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -88,8 +100,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
 >>>>>>> 0b8bc32 (adding some jenkins commands)
+=======
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+    ]
+>>>>>>> dee7392 (adding some info)
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -312,6 +330,14 @@
       <updated>1667691507280</updated>
       <workItem from="1668811296534" duration="302000" />
     </task>
+    <task id="LOCAL-00001" summary="adding some jenkins commands">
+      <created>1677437053674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677437053674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,8 +367,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <ignored-roots>
       <path value="$PROJECT_DIR$/way2automation_python" />
     </ignored-roots>
+=======
+    <MESSAGE value="adding some jenkins commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some jenkins commands" />
+>>>>>>> dee7392 (adding some info)
   </component>
 </project>
