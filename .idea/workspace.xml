@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3815f4c-8369-4862-8518-a9ddad4c7e1d" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/way2automation_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/way2automation_python.iml" afterDir="false" />
@@ -15,6 +16,12 @@
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" beforeDir="false" afterPath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/way2automation_python" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/a_Python_Course/pythonConcepts/hackerRank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_Python_Course/pythonConcepts/New.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" beforeDir="false" afterPath="$PROJECT_DIR$/u_Important_Comands_Layouts/zz_Important_comands" afterDir="false" />
+>>>>>>> 0b8bc32 (adding some jenkins commands)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +33,7 @@
       <list>
         <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Stub" />
       </list>
     </option>
   </component>
@@ -45,6 +53,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -61,8 +70,26 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/keshavsharma/Desktop/frameworks/way2automation_python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> 0b8bc32 (adding some jenkins commands)
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -79,8 +106,12 @@
       <recent name="$PROJECT_DIR$/Selenium_Course" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python tests.pytest for test_a_CreatingTestCases.test_termination_form">
     <configuration name="a_POST_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.hackerRank">
+    <configuration name="a_Browser_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="way2automation_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +119,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d_API_Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d_API_Demo/a_POST_api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c_Selenium_Course/b_selenium_basics/a_Browser_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hackerRank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 0b8bc32 (adding some jenkins commands)
+      <module name="way2automation_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/a_Python_Course/pythonConcepts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a_Python_Course/pythonConcepts/hackerRank.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,20 +272,33 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
+<<<<<<< HEAD
       <item itemvalue="Python.a_POST_api" />
       <item itemvalue="Python.d_operators" />
       <item itemvalue="Python.g_MouseOver" />
       <item itemvalue="Python.u_css_validation" />
+=======
+      <item itemvalue="Python.hackerRank" />
+      <item itemvalue="Python.a_Browser_test" />
+>>>>>>> 0b8bc32 (adding some jenkins commands)
       <item itemvalue="Python tests.pytest in c_pytest_framework_allure_reporting" />
       <item itemvalue="Python tests.pytest for test_a_CreatingTestCases.test_termination_form" />
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python tests.pytest for test_a_CreatingTestCases.test_termination_form" />
         <item itemvalue="Python.a_POST_api" />
         <item itemvalue="Python.u_css_validation" />
         <item itemvalue="Python.g_MouseOver" />
         <item itemvalue="Python.d_operators" />
+=======
+        <item itemvalue="Python.hackerRank" />
+        <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_shares_section" />
+        <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_registration_form" />
+        <item itemvalue="Python tests.pytest for test_f_assertion_multipleFailures.test_composeEmail" />
+        <item itemvalue="Python.a_Browser_test" />
+>>>>>>> 0b8bc32 (adding some jenkins commands)
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +322,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
