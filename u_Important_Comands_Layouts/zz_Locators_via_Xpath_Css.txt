@@ -152,8 +152,13 @@ SELECTORS HUB :---->
 - simple inspect
 - set driver command to append on selectors
 - click to generate locators page and multiple selectors
--
 
+
+Handling webelements which disappear on inspecting :
+  1. go to sources tab in browser
+  2. locate the disappearing element
+  3. click of f8 for pausing the browser (web page in debugger mode)
+  4.
 
 
 

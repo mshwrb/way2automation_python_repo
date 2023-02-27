@@ -17,18 +17,13 @@ driver.fullscreen_window()
 pre_signin_locator = "//a[normalize-space()='Sign in']"
 next_signin_locator = "//input[@title='Sign in']"
 
-pre_signin = driver.find_element(By.XPATH,pre_signin_locator)
+pre_signin = driver.find_element(By.XPATH, pre_signin_locator)
 pre_signin.click()
-next_signin = driver.find_element(By.XPATH,next_signin_locator)
+next_signin = driver.find_element(By.XPATH, next_signin_locator)
 next_signin.click()
 
-alert = driver.switch_to.alert # or alert = Alert(driver)
+alert = driver.switch_to.alert  # or alert = Alert(driver)
 
 print(alert.text)
 time.sleep(3)
 alert.accept()
-
-
-
-
-

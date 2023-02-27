@@ -1,47 +1,54 @@
-from selenium import webdriver
-from threading import Thread
+# Python program to illustrate the concept
+# of threading
+# importing the threading module
+import threading
 
-from selenium.webdriver.chrome import options
+from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-# Define a function to perform some action with Selenium
-def perform_action(driver):
-    driver.get("https://www.example.com")
-    driver.implicitly_wait(5)
+
+def print_cube(num):
+    chrome_options = Options
+    chrome_options.unhandled_prompt_behavior = 'dismiss and notify'
+    driver = webdriver.Chrome()
+    # driver = webdriver.Chrome(ChromeDriverManager().install())  # launching browser
+    driver.get("https://www.way2automation.com/way2auto_jquery/index.php")  # getting browser url
+    driver.maximize_window()  # maximizing browser
+    print(driver.name)
     print(driver.title)
-    # Add your Selenium code here
+    driver.minimize_window()  # minimizing browser
+    driver.fullscreen_window()  # full-screen browser size
+    driver.quit()  # kill entire session all open windows
 
 
-# Define a function for each thread
-def run_thread(thread_id):
-    # Create a new instance of a Selenium driver
-    # driver = webdriver.Chrome()
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--disable-gpu')
-    options.add_argument("start-maximized")
-    options.add_argument("disable-infobars")
-    options.add_argument("--disable-extensions")
-    options.add_argument("window-size=1920x1080")
-    driver = webdriver.Chrome('chromedriver', options=options)
-    # Perform some action with Selenium
-    perform_action(driver)
-    # Close the driver instance
-    driver.quit()
+def print_square(num):
+    chrome_options = Options
+    chrome_options.unhandled_prompt_behavior = 'dismiss and notify'
+    driver = webdriver.Chrome()
+    # driver = webdriver.Chrome(ChromeDriverManager().install())  # launching browser
+    driver.get("http://seomarketing.logixportfolio.in/")  # getting browser url
+    driver.maximize_window()  # maximizing browser
+    print(driver.name)
+    print(driver.title)
+    driver.minimize_window()  # minimizing browser
+    driver.fullscreen_window()  # full-screen browser size
+    driver.quit()  # kill entire session all open windows
 
 
-# Define the number of threads to run
-num_threads = 5
+if __name__ == "__main__":
+    # creating thread
+    t1 = threading.Thread(target=print_square, args=(10,))
+    t2 = threading.Thread(target=print_cube, args=(10,))
 
-# Create a list to hold the threads
-threads = []
+    # starting thread 1
+    t1.start()
+    # starting thread 2
+    t2.start()
 
-# Create and start each thread
-for i in range(num_threads):
-    thread = Thread(target=run_thread, args=(i,))
-    thread.start()
-    threads.append(thread)
+    # wait until thread 1 is completely executed
+    t1.join()
+    # wait until thread 2 is completely executed
+    t2.join()
 
-# Wait for all threads to complete
-for thread in threads:
-    thread.join()
+    # both threads completely executed
+    print("Done!")
