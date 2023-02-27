@@ -182,6 +182,7 @@ Very simple steps to use the tool-
 3. Now keep performing your steps, it will automatically write english sentence for every user action.
 4. You can download the written steps by clicking on download button.
 
+-------------------------------------------------------git-------------------------------------------------------
 git commands :
 git init
 git add README.md
@@ -189,6 +190,9 @@ git commit -m "first commit
 git branch -M main
 git remote add origin https://github.com/vedthemaster/tutorial-yt.git
 git push -u origin main
+
+git clone from specific branch :
+git clone --single-branch --branch <branchname> <remote-repo>
 
 git conflicts :
 https://stackoverflow.com/questions/161813/how-do-i-resolve-merge-conflicts-in-a-git-repository
