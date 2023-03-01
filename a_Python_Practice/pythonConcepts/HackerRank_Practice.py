@@ -97,4 +97,25 @@ class Problems:
         else:
             print(False)
 
-Problems.string_validation("qA2")
+    @staticmethod
+    def python_tuples():
+        n = 2
+        integer_list = [1, 2]
+        print(hash(tuple(integer_list)))
+
+    @staticmethod
+    def swap_case(s):
+        s1 = ""
+        print("k96.5gi.SABdh3S.6IfZXmaH5ipTMwj4W0Uj9mowc45EOzKHAsS73GXkOqCD90uGE02CaXpNYmwTyw'trvCo.0vNbQ.Siq5hfHKX")
+        for n in s:
+            if n.isalpha() and n.isupper():
+                s1 = s1 + n.lower()
+            elif n.isalpha() and n.islower():
+                s1 = s1 + n.upper()
+            elif n.isspace() or n == "\"" or n.isnumeric() or n == "." or n == "'":
+                s1 = s1 + n
+        return s1
+
+
+
+print(Problems.swap_case("K96.5GI.sabDH3s.6iFzxMAh5IPtmWJ4w0uJ9MOWC45eoZkhaSs73gxKoQcd90Uge02cAxPnyMWtYW'TRVcO.0VnBq.sIQ5HFhkx"))
