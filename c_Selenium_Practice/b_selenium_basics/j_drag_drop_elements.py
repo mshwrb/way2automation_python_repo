@@ -19,7 +19,6 @@ draggable_component_locator = "//div[@id='draggable']"
 droppable_component_locator = "//div[@id='droppable']"
 
 droppable_component = driver.find_element(By.XPATH,draggable_component_locator)
-droppable_component = driver.find_element(By.XPATH,droppable_component_locator)
 
 ActionChains(driver).drag_and_drop(droppable_component,droppable_component).perform()
 time.sleep(3)

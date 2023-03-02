@@ -22,8 +22,8 @@ class Practice:
         print("Adding something")
 
 
-a = Practice()
-a.add()
+# a = Practice()
+# a.add()
 
 """
 self.id / self.name :- global variable
@@ -42,5 +42,7 @@ class Employee:
         print("age is :", self.a)
 
 
-e = Employee("Keshav", 101, 24)
-e.display()
+# e = Employee("Keshav", 101, 24)
+# e.display()
+
+

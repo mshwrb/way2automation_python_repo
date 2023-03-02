@@ -62,6 +62,7 @@ ele = wait.until(EC.element_to_be_clickable(By.XPATH, "locator"))
 
 
 
+
 # username = driver.find_element("id", "identifierId")
 # username = driver.find_element(By.ID, "identifierId")
 # username.send_keys("trainer@way2automation.com")
