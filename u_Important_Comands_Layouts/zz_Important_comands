@@ -18,6 +18,8 @@ pycharm_icon -> preferences -> current_project -> python_interpreter -> (+)sign 
 
 pytest -> install
 
+ctr + alt + s  => settings in pycharm
+
 python -m pip check-----------------> check for missing dependencies
 pip freeze > requirements.txt ------------> pip freeze outputs a list of all installed Python modules with their versions.
 pip install -r requirements.txt -----------> This installs all of the modules listed in our Python requirements file into our project environment.
