@@ -1,3 +1,5 @@
+NO Section Error for configparser arrise only due to config.ini file path
+
 pip install -U selenium  ---> update selenium
 
 pip install --upgrade pip -----> update pip
@@ -55,6 +57,10 @@ is possible via selenium grid
   -
 
 ----------------------------------------PyTest---------------------------------------------------------------
+Likewise, you can have other conftest.py files in subdirectories of the top tests directory.
+If you do, fixtures defined in these lower-level conftest.py files will be available to tests in that directory and subdirectories.
+So far, however, the fixtures in the Tasks project are intended ...
+
 To add any package to current project :
     preferences -> current_project -> python_interpreter -> (+)sign -> package_name
 
@@ -207,6 +213,9 @@ git clone --single-branch --branch <branchname> <remote-repo>
 
 git reset - for un_add all added files before commit
 git reset <file> - for un_add particular file
+
+git stash - save the current working image in a stash list with stash@{number}, number = 1,2,3,4,5...
+git stash apply stash@{number} to apply these changes on local working
 
 git conflicts :
 https://stackoverflow.com/questions/161813/how-do-i-resolve-merge-conflicts-in-a-git-repository

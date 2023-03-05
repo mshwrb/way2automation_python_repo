@@ -226,7 +226,7 @@ class PythonBasicPart_1:
 
     def question_42(self):
         print(platform.architecture()[0])
-        print(struct.calcsize("P")*8)
+        print(struct.calcsize("P") * 8)
 
     def question_43(self):
         print(os.name)
@@ -237,7 +237,7 @@ class PythonBasicPart_1:
         print(site.getsitepackages())
 
     def question_45(self):
-        print(call(["ls","-l"]))
+        print(call(["ls", "-l"]))
 
     def question_46(self):
         print(os.path.realpath(__file__))
@@ -250,6 +250,18 @@ class PythonBasicPart_1:
         print(float(n))
         print(int(float(n)))
 
+    def fabonachi_series(self, nterms):
+        n1, n2 = 0, 1
+        count = 0
+        fabonachi_list = []
+        while count < nterms:
+            fabonachi_list.append(n1)
+            nth = n1 + n2
+            # update values
+            n1 = n2
+            n2 = nth
+            count += 1
+        return fabonachi_list
 
 object = PythonBasicPart_1()
-object.question_48()
+print(object.fabonachi_series(5))
