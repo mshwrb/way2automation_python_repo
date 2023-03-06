@@ -243,6 +243,8 @@ uninstall jenkins :
 brew uninstall jenkins --force
 brew cleanup
 
+Jenkins 2.346. 3 is the most recent Jenkins LTS. It supports Java 8.
+
 1. Install jenkins .war file from https://www.jenkins.io/download/
 2. Jenkins_2.289.3.war jenkins file version
 3. Open cmd in location where .war file downloaded and then run command : java -jar jenkins.war
@@ -252,10 +254,21 @@ brew cleanup
 7. Login with Jenkins Credentials username/password
 8. Navigate to "Manage Jenkins" > Install some plugins > tab "Available" and search for
    a. allure
-   b. shinningpanda
+   b. shinningpanda - support venv , pytest , plugin support
 9. cntrl + c to top jenkins
 
 help video : https://www.youtube.com/watch?v=1aXKLIbKOp4&ab_channel=Mukeshotwani
+
+for local it is localhost:8080 but instead company would provide us the url like  "jenkins.com.companyName..."
+username
+password
+
+For Khamilia-softwares
+jenkins key : 85c582c8461748d0ae2b0e0e467bb070
+http://localhost:8080/
+username - keshav
+comminity saved password and notifications
+https://community.jenkins.io/
 
 -------------------------------------way2Automation-----------------------------------------------------
 Way2Automation
@@ -301,6 +314,9 @@ Hooks :
  - behave feature_file_folder
  - behave feature_file_folder\.features_file  [path of feature_file]
  - running feature files with tags :: behave feature_file_folder --tags=smoke/sanity/etc
+
+ installing behave via github repo :
+ pip install git+https://github.com/behave/behave
 
 -----------------------------------------------------------------behave and allure report together--------------------------------------------------------------------------------
 - install allure behave : pip install allure-behave
