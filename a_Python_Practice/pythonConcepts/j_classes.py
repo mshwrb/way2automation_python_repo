@@ -15,6 +15,11 @@ self :-
 2. The first parameter of every function must contain self then after , we can have different params
 
 Objects :- Instance of class
+
+functions :-
+myfunc(asdf1, asdf2, asdf3 = " ", asdf4=" ")
+- mandatory parameters :- asdf1 and asdf2
+- optional parameters :- asdf3 and asdf4
 """
 
 
