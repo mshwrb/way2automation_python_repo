@@ -29,7 +29,7 @@ h = ("one", "two", "three")
 #  set{}
 i = {"one", "two", "three", "three"}
 si = set(["one", "two", "three", "three"])
-print(si,i)
+print(si, i)
 
 #  frozenset({})
 j = frozenset({"one", "two", "three"})
