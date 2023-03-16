@@ -1,0 +1,30 @@
+official documentation of Robot Framework :- https://robotframework.org/#resources
+tutorial : https://www.youtube.com/watch?v=qnA2P3VBkeA&list=PLL34mf651faORDOyJrk0E6k9FM-wKgfPV&index=2
+
+Steps to download Robot Framework :-
+- Download .jar file from path https://github.com/lte2000/intellibot/blob/master/intellibot.jar
+- [Go to setting] > [plugins] > [(gear)] > [download plugin from disk > select the .jar file] > restart ide
+- install pip install robotframework
+- check if robotframework installed via [robot --version]
+- download selenium browserdrivers for the browser
+
+Every Robot framework file have 4 section :
+[ctrl + space] - to have these under written things appear
+Every robot file have these 4 sections
+*** Settings ***
+section dedicated to import, library
+[Library] :-
+ - to use any Library from robot framework we need to install the library first
+ - pip install robotframework-libraryName
+
+*** Variables ***
+There are 4 type of variables:
+1. scaler variable
+2. dictionary variable
+3. list variable
+
+about keywords and test cases - https://robotframework.org/SeleniumLibrary/
+selenium keywords documentation - https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+*** Keywords ***
+*** Test Cases ***
+

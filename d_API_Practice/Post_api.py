@@ -1,5 +1,4 @@
 import json
-
 import requests
 
 payload = open("z_payload.json", "r").read()
