@@ -1,3 +1,6 @@
+touch ~/.bash_profile; open ~/.bash_profile
+open .zprofile
+
 ---------------------------------------------------------------------------conftest.py--------------------------------------------------------------------------------------------------
 Your conftest.py is only available to test files in the same directory, or in nested directories below.
    tests/
