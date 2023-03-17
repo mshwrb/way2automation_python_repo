@@ -407,3 +407,7 @@ Authentication tokens
 Secret keys
 Bio-metrics and many other ways
 
+-------------------------------------------CMD Commands---------------------------------------------------------------------------------------------------------
+- Copy 1 file from a location to another location in windows
+cd source.path
+copy file.asdf destination.path

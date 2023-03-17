@@ -8,6 +8,14 @@ Steps to download Robot Framework :-
 - check if robotframework installed via [robot --version]
 - download selenium browserdrivers for the browser
 
+For adding path of executable files in the .bash file of mac or .zprofile :
+cd homedir
+vi .bash_profile
+for saving file :wq!
+to see the path echo $PATH
+
+take executable and add it to c > python > scripts
+
 Every Robot framework file have 4 section :
 [ctrl + space] - to have these under written things appear
 Every robot file have these 4 sections
@@ -27,4 +35,16 @@ about keywords and test cases - https://robotframework.org/SeleniumLibrary/
 selenium keywords documentation - https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 *** Keywords ***
 *** Test Cases ***
+----------------------------------------------------------------------ROBOT FRAMEWORK--------------------------------------------------------------------------------
+ctr + space >>>>>  underwritten 4 sections will appear to write in .robot file
+{*** Settings ***}
+{*** Keywords ***}
+{*** Variables ***}
+{*** test cases ***}
+
+to run the .robot file from cmd :--
+{robot .\name_of_file / robot .\{initials of letter and then press tab}]}
+{robot -v variable_name:variable_value .\{initials of letter and then press tab}]}
+
+To have executables with the robot framework we need to paste the .exe file in scripts in python39
 
