@@ -353,6 +353,8 @@ https://stackoverflow.com/questions/41960081/how-to-send-an-email-of-allure-repo
 ----------------------------------------------------------------------------------APIs-------------------------------------------------------------------------------
 [requests Documentation] -----::>> [https://requests.readthedocs.io/en/latest/]
 
+for json schema validation - https://pynative.com/python-json-validation/
+
 [view json objects] ---> http://jsonviewer.stack.hu/
 [apis for testing purpose] ---> https://reqres.in/
 [delay apis example] ---> https://httpbin.org/
