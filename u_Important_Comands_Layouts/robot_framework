@@ -45,6 +45,14 @@ ctr + space >>>>>  underwritten 4 sections will appear to write in .robot file
 to run the .robot file from cmd :--
 {robot .\name_of_file / robot .\{initials of letter and then press tab}]}
 {robot -v variable_name:variable_value .\{initials of letter and then press tab}]}
+{robot -d folder_name_where_logs_stay .\.robot_file} - this would add the log files to this folder not in the root
 
 To have executables with the robot framework we need to paste the .exe file in scripts in python39
+
+
+path of file always with :-
+1. single forward slash
+2. double backward slash
+ ex: C:\\Users\\User\\Desktop\\responsive_issue.png
+ ex: C:/Users/User/Desktop/responsive_issue.png
 

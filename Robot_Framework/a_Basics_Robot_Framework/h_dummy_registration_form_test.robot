@@ -12,6 +12,11 @@ First Test Case
     input text    css:input[name='phone']    9810023432
     input text    name:email    keshavsharma.tu@gmail.com
     select from list by value    xpath://select[@name='country']    Germany
+    input text    xpath://input[@name='city']    Delhi
+    input text    xpath://div[@id='load_box']//input[@name='username']    Keshav Sharma
+    input text    xpath://div[@id='load_box']//input[@name='password']    asdfgghjhj
+    click button    xpath://div[@id='load_box']//input[@value='Submit']
+    sleep    2s
     quiting url
 
 
