@@ -353,6 +353,10 @@ https://stackoverflow.com/questions/41960081/how-to-send-an-email-of-allure-repo
 ----------------------------------------------------------------------------------APIs-------------------------------------------------------------------------------
 [requests Documentation] -----::>> [https://requests.readthedocs.io/en/latest/]
 
+Unlike Basic Auth, where you have to share your password with people who need to access your user account,
+OAuth doesn't share password data. Instead,
+OAuth uses authorization tokens to verify an identity between consumers and service providers.
+
 for json schema validation - https://pynative.com/python-json-validation/
 
 [view json objects] ---> http://jsonviewer.stack.hu/
